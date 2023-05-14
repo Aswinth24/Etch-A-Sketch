@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <h1>Etch-A-Sketch</h1>
+    </header>
+    <div class="container">
+        <div id="setting">
+            <input id='color' type="color" value="#111111">
+            <button id="mode" >Color mode</button>
+            <button id="rainbow">Rainbow mode</button>
+            <button id="eraser" >Eraser</button>
+            <button id="clear">Clear</button>
+
+            <div class="range">
+                <span id="grid-size">2x2</span>
+                <input id="range-ip" type="range" value="2" min="2" max="60">
+            </div>
+        </div>
+        <div id="grid">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <h3>Project by Aswinth</h3>
+    </footer>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
